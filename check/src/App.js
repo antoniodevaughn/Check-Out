@@ -43,7 +43,7 @@ const Login=()=> {
                 
         <TextField label="Username or Email Address" placeholder="Enter Username" fullWidth required></TextField>
         <p></p>
-        <Stack spacing={9} direction="row">
+        <Stack spacing={4.5} direction="row">
         <FormControlLabel
             control={
                 <Checkbox
@@ -70,8 +70,15 @@ const Login=()=> {
             />}
             label="CashApp"
             />
-            
-           
+            <p></p>
+            <FormControlLabel
+            control={
+                <Checkbox
+                    name="Checked"
+                    color="primary"
+            />}
+            label="Visa"
+            />
             <p></p>
             </Stack>
             <p></p>
